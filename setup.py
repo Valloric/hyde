@@ -114,9 +114,6 @@ setup(name=PROJECT,
       author_email='lakshmi.vyas@gmail.com',
       url='http://hyde.github.com',
       packages=find_packages(),
-      dependency_links=[
-        "https://github.com/hyde/typogrify/tarball/hyde-setup#egg=typogrify-hyde"
-      ],
       install_requires=(
           'argparse',
           'commando',
